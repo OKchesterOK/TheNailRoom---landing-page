@@ -1,11 +1,11 @@
 @font-face {
     font-family: Homework;
-    src: url(../assets/font/homework.ttf);
+    src: url(font/homework.ttf);
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(../assets/font/OpenSans-Regular.ttf);
+    src: url(font/OpenSans-Regular.ttf);
 }
 
 * {
@@ -27,7 +27,7 @@ html, body {
 .banner {
     position: relative;
     height: 100%;
-    background: url("../assets/img/banner-min-op.jpg") no-repeat 100% 100%;
+    background: url("img/banner-min-op.jpg") no-repeat 100% 100%;
     background-size: cover;
 }
 
@@ -66,17 +66,17 @@ html, body {
 }
 
 .vk {
-    background: no-repeat url("../assets/img/vk.png");
+    background: no-repeat url("img/vk.png");
     background-size: 100%;
 }
 
 .fb {
-    background: no-repeat url("../assets/img/fb.png");
+    background: no-repeat url("img/fb.png");
     background-size: 100%;
 }
 
 .inst {
-    background: no-repeat url("../assets/img/inst.png");
+    background: no-repeat url("img/inst.png");
     background-size: 100%;
 }
 
