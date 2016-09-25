@@ -22,41 +22,51 @@ html, body {
     font-family: OpenSans;
     overflow: hidden;
     margin: 0 auto;
+    color: #FFFFFF;
 }
 
 .banner {
     position: relative;
     height: 100%;
-    background: url("img/banner-min-op.jpg") no-repeat 100% 100%;
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.85)
+        ),
+        url("img/TNR-banner.jpg") no-repeat 100% 100%;
     background-size: cover;
 }
 
 .logo {
     font-family: Homework;
     font-size: 120px;
+    text-shadow: 5px 5px 10px #000000;
     color: #FF0000;
     text-align: center;
+    padding-top: 15px;
 }
 
 .content {
-    width: 80%;
-    margin: 20px auto 0;
+    width: 55%;
+    margin: 0 auto;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    text-shadow: 5px 5px 10px #000000;
 }
 
 .social {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 10px 0;
 }
 
 .soc {
     display: inline-block;
     margin: 10px 30px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+    box-shadow: 5px 5px 10px #000000;
 }
 
 .soc a {
@@ -97,8 +107,8 @@ html, body {
 }
 
 .map {
-    width: 650px;
+    width: 50%;
     height: 250px;
     margin: 0 auto;
-    border: 1px solid #000000;
+    box-shadow: 5px 5px 10px #000000;
 }
