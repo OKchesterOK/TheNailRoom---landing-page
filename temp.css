@@ -13,7 +13,6 @@
     margin: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
     box-sizing: border-box;
     cursor: default;
 }
@@ -342,46 +341,46 @@ and (orientation: portrait) {
     }
 
     .logo {
-        font-size: 230px;
-        padding-top: 25px;
+        font-size: 70px;
+        padding-top: 10px;
     }
 
     .content {
-        width: 100%;
-        font-size: 50px;
+        width: 90%;
+        font-size: 13px;
     }
 
     .social {
-        margin: 5px 0;
+        margin: 0;
     }
 
     .soc {
-        margin: 30px 60px;
-        width: 130px;
-        height: 130px;
-        border-radius: 130px;
+        margin: 10px 20px;
+        width: 45px;
+        height: 45px;
+        border-radius: 48px;
     }
 
     .phones {
-        font-size: 40px;
-        padding-top: 15px;
+        font-size: 13px;
+        padding-top: 0;
     }
 
     .life, .ks {
         padding: 5px 20px;
-        font-size: 55px;
+        font-size: 13px;
     }
 
     .phones img {
-        width: 75px;
-        height: 75px;
-        border-radius: 75px;
-        vertical-align: -10px;
+        width: 13px;
+        height: 13px;
+        border-radius: 16px;
+        vertical-align: 0;
     }
 
     .map {
-        width: 80%;
-        height: 340px;
-        margin: 50px auto;
+        width: 90%;
+        height: 175px;
+        margin: 10px auto;
     }
 }
