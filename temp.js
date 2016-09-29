@@ -18,6 +18,6 @@ function showGoogleMaps() {
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);
 
 $(window).resize(function() {
-    $("#googlemaps").load(location.href+" #googlemaps>*","");
+    $(.map).load(location.href+".map>*","");
 });
 
