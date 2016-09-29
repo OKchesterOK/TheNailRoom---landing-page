@@ -220,11 +220,6 @@ and (orientation: portrait) {
 and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (orientation: landscape) {
-    html, body {
-        height: 100%;
-        vertical-align: middle;
-    }
-
     .logo {
         font-size: 100px;
         padding-top: 0;
@@ -278,11 +273,6 @@ and (orientation: landscape) {
 and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (orientation: landscape) {
-    html, body {
-        vertical-align: middle;
-        height: 100%;
-    }
-
     .logo {
         font-size: 100px;
         padding-top: 0;

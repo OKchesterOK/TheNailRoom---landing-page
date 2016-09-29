@@ -16,3 +16,8 @@ function showGoogleMaps() {
 }
 
 google.maps.event.addDomListener(window, 'load', showGoogleMaps);
+
+$(window).resize(function() {
+    $('.map').reload();
+});
+
