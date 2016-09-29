@@ -26,7 +26,7 @@ html, body {
 }
 
 a {
-    color: #000000;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -97,6 +97,7 @@ a {
 
 .phones {
     text-align: center;
+    text-shadow: 5px 5px 10px #000000;
 }
 
 .phones img {
