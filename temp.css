@@ -177,7 +177,7 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait) {
     .logo {
-        font-size: 230px;
+        font-size: 200px;
         padding-top: 5px;
     }
 
