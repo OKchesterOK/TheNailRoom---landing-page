@@ -291,7 +291,7 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (orientation: portrait) {
     html, body {
-        height: 90%;
+        height: 100%;
     }
 
     .banner {
