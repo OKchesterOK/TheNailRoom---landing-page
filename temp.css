@@ -112,10 +112,6 @@ a {
     padding: 10px 20px;
 }
 
-.metro {
-    display: none;
-}
-
 .map {
     width: 50%;
     height: 250px;
@@ -276,7 +272,8 @@ and (orientation: landscape) {
     }
 
     .phones {
-        font-size: 20px;
+        font-size: 22px;
+        width: 45%;
     }
 
     .phones img {
@@ -285,22 +282,17 @@ and (orientation: landscape) {
         border-radius: 24px;
     }
 
-    .metro {
-        display: block;
-    }
-
-    .phones .metro img {
-        width: 27px;
-        height: 24px;
-        border-radius: 0;
-    }
-
     .life, .ks {
-        padding: 5px 20px;
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .phones, .map {
+        vertical-align: middle;
+        display: inline-block;
     }
 
     .map {
-        display: none;
         width: 45%;
         height: 150px;
     }
@@ -310,10 +302,6 @@ and (orientation: landscape) {
 and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (orientation: portrait) {
-    html, body {
-        height: 100%;
-    }
-
     .banner {
         background:
                 linear-gradient(
