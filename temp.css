@@ -37,8 +37,8 @@ a {
     padding-bottom: 15px;
     background:
         linear-gradient(
-            rgba(0, 0, 0, 0.6),
-            rgba(0, 0, 0, 0.6)
+            rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)
         ),
         url("img/TNR-banner.jpg") no-repeat 100% 100%;
     background-size: cover;
@@ -128,8 +128,8 @@ and (max-device-width: 1024px)
 and (orientation: landscape) {
     .banner {
         background: linear-gradient(
-                rgba(0, 0, 0, 0.6),
-                rgba(0, 0, 0, 0.6)
+                rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.65)
         ),
         url("img/TNR-banner.jpg") no-repeat 50% 100%;
         background-size: cover;
@@ -333,8 +333,8 @@ and (orientation: portrait) {
     .banner {
         background:
                 linear-gradient(
-                        rgba(0, 0, 0, 0.6),
-                        rgba(0, 0, 0, 0.6)
+                        rgba(0, 0, 0, 0.65),
+                        rgba(0, 0, 0, 0.65)
                 ),
                 url(img/TNR-banner.jpg) no-repeat 85% 100%;
         background-size: cover;
