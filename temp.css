@@ -341,13 +341,13 @@ and (orientation: portrait) {
     }
 
     .logo {
-        font-size: 70px;
+        font-size: 60px;
         padding-top: 10px;
     }
 
     .content {
         width: 90%;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .social {
@@ -356,31 +356,30 @@ and (orientation: portrait) {
 
     .soc {
         margin: 10px 20px;
-        width: 45px;
-        height: 45px;
-        border-radius: 48px;
+        width: 40px;
+        height: 40px;
+        border-radius: 43px;
     }
 
     .phones {
-        font-size: 13px;
+        font-size: 12px;
         padding-top: 0;
     }
 
     .life, .ks {
         padding: 5px 20px;
-        font-size: 13px;
     }
 
     .phones img {
-        width: 13px;
-        height: 13px;
-        border-radius: 16px;
+        width: 12px;
+        height: 12px;
+        border-radius: 15px;
         vertical-align: 0;
     }
 
     .map {
         width: 90%;
-        height: 175px;
-        margin: 10px auto;
+        height: 165px;
+        margin: 5px auto;
     }
 }
