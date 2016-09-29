@@ -133,30 +133,41 @@ and (orientation: landscape) {
     }
 
     .logo {
-        font-size: 200px;
-        padding-top: 5px;
+        font-size: 150px;
+        padding-top: 1px;
     }
 
     .content {
-        width: 80%;
-        font-size: 30px;
+        width: 100%;
+        font-size: 25px;
         margin-top: -15px;
     }
 
     .soc {
-        margin: 10px 45px;
-        width: 80px;
-        height: 80px;
-        border-radius: 80px;
+        margin: 10px 55px;
+        width: 70px;
+        height: 70px;
+        border-radius: 70px;
+    }
+
+    .life, .ks {
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .phones, .map {
+        vertical-align: middle;
+        display: inline-block;
     }
 
     .phones {
+        width: 45%;
         font-size: 25px;
     }
 
     .map {
-        width: 75%;
-        height: 240px;
+        width: 45%;
+        height: 155px;
     }
 }
 
@@ -339,7 +350,7 @@ and (orientation: portrait) {
     }
 
     .soc {
-        margin: 40px 60px;
+        margin: 30px 60px;
         width: 130px;
         height: 130px;
         border-radius: 130px;
