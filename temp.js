@@ -18,7 +18,7 @@
     function showGoogleMaps() {
 
         var mapOptions = {
-            zoom: 17,
+            zoom: 16,
             streetViewControl: false,
             scaleControl: true,
             mapTypeControl: false,
