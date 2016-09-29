@@ -181,14 +181,14 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait) {
     .logo {
-        font-size: 200px;
+        font-size: 180px;
         padding-top: 5px;
     }
 
     .content {
-        width: 85%;
-        font-size: 40px;
-        margin: -15px auto;
+        width: 100%;
+        font-size: 30px;
+        margin: -20px auto;
     }
 
     .social {
@@ -199,12 +199,12 @@ and (orientation: portrait) {
         margin: 15px 55px;
         width: 100px;
         height: 100px;
-        border-radius: 100px;
+        border-radius: 103px;
     }
 
     .phones {
-        font-size: 45px;
-        margin: 20px auto 30px;
+        font-size: 30px;
+        margin: -15px auto 10px;
     }
 
     .phones img {
@@ -215,8 +215,8 @@ and (orientation: portrait) {
     }
 
     .map {
-        width: 75%;
-        height: 350px;
+        width: 85%;
+        height: 260px;
     }
 }
 
