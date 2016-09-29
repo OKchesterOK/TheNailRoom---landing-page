@@ -289,9 +289,11 @@ and (orientation: landscape) {
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 568px)
-and (-webkit-device-pixel-ratio: 2)
-and (device-aspect-ratio: 40/71)
 and (orientation: portrait) {
+    html, body {
+        height: 90%;
+    }
+
     .banner {
         background:
                 linear-gradient(
@@ -308,25 +310,29 @@ and (orientation: portrait) {
     }
 
     .content {
-        width: 85%;
-        font-size: 55px;
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .social {
+        margin: 5px 0;
     }
 
     .soc {
-        display: inline-block;
-        margin: 50px 60px;
-        width: 150px;
-        height: 150px;
-        border-radius: 150px;
+        margin: 40px 60px;
+        width: 130px;
+        height: 130px;
+        border-radius: 130px;
     }
 
     .phones {
-        font-size: 50px;
+        font-size: 40px;
+        padding-top: 15px;
     }
 
     .life, .ks {
         padding: 5px 20px;
-        font-size: 75px;
+        font-size: 55px;
     }
 
     .phones img {
