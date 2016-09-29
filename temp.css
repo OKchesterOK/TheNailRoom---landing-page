@@ -156,6 +156,7 @@ and (orientation: landscape) {
     }
 
     .phones, .map {
+        margin-top: 20px;
         vertical-align: middle;
         display: inline-block;
     }
@@ -167,7 +168,7 @@ and (orientation: landscape) {
 
     .map {
         width: 45%;
-        height: 155px;
+        height: 190px;
     }
 }
 
