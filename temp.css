@@ -278,12 +278,12 @@ and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (orientation: landscape) {
     .logo {
-        font-size: 70px;
+        font-size: 65px;
         padding-top: 0;
     }
 
     .content {
-        font-size: 14px;
+        font-size: 12px;
         width: 100%;
         margin-top: -10px;
     }
@@ -294,20 +294,20 @@ and (orientation: landscape) {
 
     .soc {
         margin: 10px 30px;
-        width: 40px;
-        height: 40px;
-        border-radius: 43px;
+        width: 35px;
+        height: 35px;
+        border-radius: 38px;
     }
 
     .phones {
-        font-size: 14px;
+        font-size: 12px;
         width: 45%;
     }
 
     .phones img {
-        width: 15px;
-        height: 15px;
-        border-radius: 15px;
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
         vertical-align: 0;
     }
 
