@@ -253,6 +253,10 @@ and (orientation: landscape) {
 and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (orientation: landscape) {
+    html, body {
+        height: 90%;
+    }
+
     .logo {
         font-size: 100px;
         padding-top: 0;
@@ -290,9 +294,10 @@ and (orientation: landscape) {
     }
 
     .phones .metro img {
-        width: 24px;
-        height: 20px;
+        width: 27px;
+        height: 24px;
         border-radius: 0;
+        vertical-align: top;
     }
 
     .life, .ks {
