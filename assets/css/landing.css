@@ -1,11 +1,11 @@
 @font-face {
     font-family: Homework;
-    src: url(font/homework.ttf);
+    src: url(../font/homework.ttf);
 }
 
 @font-face {
     font-family: OpenSans;
-    src: url(font/OpenSans-Regular.ttf);
+    src: url(../font/OpenSans-Regular.ttf);
 }
 
 * {
@@ -40,7 +40,7 @@ a {
             rgba(0, 0, 0, 0.65),
             rgba(0, 0, 0, 0.65)
         ),
-        url("img/TNR-banner.jpg") no-repeat 100% 100%;
+        url(../img/TNR-banner.jpg) no-repeat 100% 100%;
     background-size: cover;
 }
 
@@ -85,17 +85,17 @@ a {
 }
 
 .vk {
-    background: no-repeat url("img/vk.png");
+    background: no-repeat url("../img/vk.png");
     background-size: 100%;
 }
 
 .fb {
-    background: no-repeat url("img/fb.png");
+    background: no-repeat url("../img/fb.png");
     background-size: 100%;
 }
 
 .inst {
-    background: no-repeat url("img/inst.png");
+    background: no-repeat url("../img/inst.png");
     background-size: 100%;
 }
 
@@ -236,7 +236,7 @@ a {
                 linear-gradient(
                         rgba(0, 0, 0, 0.65),
                         rgba(0, 0, 0, 0.65) ),
-                        url(img/TNR-banner.jpg) no-repeat 80% 100%;
+                        url(../img/TNR-banner.jpg) no-repeat 80% 100%;
         background-size: cover;
     }
 
