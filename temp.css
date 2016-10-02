@@ -50,7 +50,7 @@ a {
     text-shadow: 5px 5px 10px #000000;
     color: #FF0000;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .content {
@@ -60,11 +60,12 @@ a {
     font-size: 24px;
     font-weight: bold;
     text-shadow: 5px 5px 10px #000000;
+    margin-top: -10px;
 }
 
 .social {
     text-align: center;
-    margin: 10px 0;
+    margin: 10px 0 5px;
 }
 
 .soc {
@@ -74,7 +75,7 @@ a {
     height: 55px;
     border: 3px solid white;
     border-radius: 58px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px #000000;
 }
 
 .soc a {
@@ -98,7 +99,7 @@ a {
     background-size: 100%;
 }
 
-.phones {
+.phones, .adress-info, .maps {
     text-align: center;
     text-shadow: 5px 5px 10px #000000;
 }
@@ -115,271 +116,150 @@ a {
     padding: 10px 20px;
 }
 
-.map {
-    width: 50%;
-    height: 250px;
-    margin: 0 auto;
-    box-shadow: 5px 5px 10px #000000;
+.berest, .khrest {
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 20px 0 20px;
 }
 
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: landscape) {
-    .banner {
-        background: linear-gradient(
-                rgba(0, 0, 0, 0.65),
-                rgba(0, 0, 0, 0.65)
-        ),
-        url("img/TNR-banner.jpg") no-repeat 50% 100%;
-        background-size: cover;
-    }
+.berest_map, .khrest_map {
+    height: 150px;
+    width: 310px;
+}
 
+.berest_info, .khrest_info {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
     .logo {
-        font-size: 150px;
-        padding-top: 1px;
+        font-size: 110px;
     }
 
     .content {
-        width: 100%;
-        font-size: 25px;
-        margin-top: -15px;
-    }
-
-    .soc {
-        margin: 10px 55px;
-        width: 70px;
-        height: 70px;
-        border-radius: 70px;
-    }
-
-    .life, .ks {
-        display: block;
-        padding: 10px 20px;
-    }
-
-    .phones, .map {
-        margin-top: 20px;
-        vertical-align: middle;
-        display: inline-block;
-    }
-
-    .phones {
-        width: 45%;
-        font-size: 25px;
-    }
-
-    .map {
-        width: 45%;
-        height: 190px;
-    }
-}
-
-@media only screen
-and (min-device-width: 768px)
-and (max-device-width: 1024px)
-and (orientation: portrait) {
-    .logo {
-        font-size: 180px;
-        padding-top: 5px;
-    }
-
-    .content {
-        width: 100%;
-        font-size: 30px;
-        margin: -20px auto;
-    }
-
-    .social {
-        margin: 20px 0;
-    }
-
-    .soc {
-        margin: 15px 55px;
-        width: 100px;
-        height: 100px;
-        border-radius: 103px;
-    }
-
-    .phones {
-        font-size: 30px;
-        margin: -15px auto 10px;
-    }
-
-    .phones img {
-        width: 45px;
-        height: 45px;
-        border-radius: 45px;
-        vertical-align: middle;
-    }
-
-    .map {
         width: 85%;
-        height: 260px;
+        font-size: 22px;
+    }
+
+    .berest, .khrest {
+        margin: 15px 5px 0 5px;
     }
 }
 
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (orientation: landscape) {
-    .logo {
-        font-size: 100px;
-        padding-top: 0;
-    }
-
-    .content {
-        font-size: 20px;
-        width: 100%;
-        margin-top: -15px;
-    }
-
-    .social {
-        margin: 0;
-    }
-
-    .soc {
-        margin: 10px 30px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-    }
-
-    .phones {
-        font-size: 22px;
-        width: 45%;
-    }
-
-    .phones img {
-        width: 24px;
-        height: 24px;
-        border-radius: 24px;
-    }
-
-    .life, .ks {
-        display: block;
-        padding: 10px 20px;
-    }
-
-    .phones, .map {
-        vertical-align: middle;
-        display: inline-block;
-    }
-
-    .map {
-        width: 45%;
+@media (max-width: 663px) {
+    .berest_map, .khrest_map {
+        width: 250px;
         height: 150px;
     }
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (orientation: landscape) {
+@media (max-width: 568px) {
     .logo {
-        font-size: 65px;
+        font-size: 90px;
         padding-top: 0;
     }
 
     .content {
-        font-size: 12px;
-        width: 100%;
-        margin-top: -10px;
+        font-size: 17px;
     }
 
     .social {
-        margin: 0;
+        margin: 5px 0 0;
     }
 
     .soc {
-        margin: 10px 30px;
-        width: 35px;
-        height: 35px;
-        border-radius: 38px;
+        margin: 5px 30px;
+        width: 45px;
+        height: 45px;
+        border-radius: 48px;
     }
 
-    .phones {
-        font-size: 12px;
-        width: 45%;
+    .phones, .adress-info {
+        font-size: 14px;
     }
 
-    .phones img {
-        width: 12px;
-        height: 12px;
-        border-radius: 12px;
-        vertical-align: 0;
-    }
-
-    .life, .ks {
-        display: block;
-        padding: 5px 20px;
-    }
-
-    .phones, .map {
-        vertical-align: middle;
-        display: inline-block;
-    }
-
-    .map {
-        width: 45%;
-        height: 100px;
+    .berest, .khrest {
+        margin: 15px 0;
     }
 }
 
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (orientation: portrait) {
-    .banner {
-        background:
-                linear-gradient(
-                        rgba(0, 0, 0, 0.65),
-                        rgba(0, 0, 0, 0.65)
-                ),
-                url(img/TNR-banner.jpg) no-repeat 85% 100%;
-        background-size: cover;
+@media (max-width: 528px) {
+    .berest, .khrest {
+        display: block;
+        margin: 5px 0;
     }
 
+    .berest_map, .khrest_map {
+       display: none;
+    }
+
+    .life, .ks {
+        font-size: 17px;
+        display: block;
+    }
+
+    .berest_info, .khrest_info {
+        font-size: 17px;
+        font-weight: 100;
+    }
+}
+
+@media (max-width: 480px) {
     .logo {
-        font-size: 60px;
+        font-size: 80px;
         padding-top: 10px;
     }
 
     .content {
-        width: 90%;
-        font-size: 12px;
+        margin-top: 0;
     }
 
     .social {
-        margin: 0;
+        margin: 15px 0 10px;
+    }
+
+    .phones, .adress-info {
+        font-size: 16px;
+    }
+
+    .life, .ks, .berest_info, .khrest_info {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 320px) {
+    .banner {
+        background:
+                linear-gradient(
+                        rgba(0, 0, 0, 0.65),
+                        rgba(0, 0, 0, 0.65) ),
+                        url(img/TNR-banner.jpg) no-repeat 80% 100%;
+        background-size: cover;
+    }
+
+    .logo {
+        font-size: 65px;
+    }
+
+    .content {
+        font-size: 13px;
     }
 
     .soc {
-        margin: 10px 20px;
+        margin: 5px 20px;
         width: 40px;
         height: 40px;
         border-radius: 43px;
     }
 
-    .phones {
-        font-size: 12px;
-        padding-top: 0;
+    .phones, .adress-info {
+        font-size: 13px;
     }
 
-    .life, .ks {
-        padding: 5px 20px;
-    }
-
-    .phones img {
-        width: 12px;
-        height: 12px;
-        border-radius: 15px;
-        vertical-align: 0;
-    }
-
-    .map {
-        width: 90%;
-        height: 165px;
-        margin: 5px auto;
+    .life, .ks, .berest_info, .khrest_info {
+        font-size: 16px;
     }
 }
